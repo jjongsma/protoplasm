@@ -1,0 +1,26 @@
+# Protoplasm
+
+Protoplasm is a collection of javascript UI controls for web sites.
+Its goal is to provide a rich user experience without confusing the
+interface or creating a distraction. Simple design and clean lines
+are always valued above fancy styling, and usability is the overriding
+concern in all controls.
+
+To include Protoplasm controls in a web page, just add the following
+code to your &lt;head&gt; section:
+
+	<script language="javascript" src="protoplasm.js"></script>
+
+You can then tell Protoplasm to load the control(s) you will be using,
+and which HTML elements should be transformed into enhanced controls
+(use() must always be called from the page &lt;head&gt; section):
+
+	<script language="javascript">
+		Protoplasm.use('datepicker').transform('input.datepicker');
+	</script>
+
+Protoplasm requires <a target="_blank" href="http://www.prototypejs.org">Prototype</a>.
+Although including Prototype in your page is recommended, Protoplasm
+will automatically load it for you from the
+<a target="_blank" href="http://code.google.com/apis/libraries/">Google
+Libraries API</a> if it is not found.

@@ -1,0 +1,35 @@
+New Widgets
+-----------
+Button
+Chart
+Dialog.Window (subclass with default frame styling)
+InputFormatter (currency, SSN, etc)
+Menu
+ProgressBar
+Slider
+SelectList (multi, combo, tree, etc)
+Spotlight - mask everything on a page except one item
+Tooltip
+
+Integrate existing
+------------------
+Accordion
+Dialog
+RatingBar
+ValidatedForm
+Expander
+
+New Features
+------------
+DatePicker - ranges, restrictions, better time picker
+DatePicker - allow displaying calendar instead of text input
+DatePicker - allow splitting date/time pieces into multiple inputs
+DatePicker - extend InputFormatter to mask keystrokes
+RTE - auto-expand as text length increases
+RTE - better icons
+TabStrip - scrollable tab bar
+TabStrip - add/remove tab icons
+
+General
+-------
+Move SVN
