@@ -1197,9 +1197,9 @@ Control.DatePicker.Panel = Class.create(function() {
 		if (date) {
 
 			if (this.options.minDate && date < this.options.minDate)
-				date = this.options.minDate;
+				date.setTime(this.options.minDate.getTime())
 			else if (this.options.maxDate && date > this.options.maxDate)
-				date = this.options.maxDate;
+				date.setTime(this.options.maxDate.getTime())
 
 			this.currentDate = date;
 
