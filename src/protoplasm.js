@@ -83,7 +83,7 @@ if (typeof Protoplasm == 'undefined') {
 				}
 
 				var js = /protoplasm(_[a-z]*)?\.js(\?.*)?$/;
-				$$('head script[src]').findAll(function(s) {
+				$$('html script[src]').findAll(function(s) {
 					return s.src.match(js);
 				}).each(function(s) {
 					var matches = s.src.match(js),
