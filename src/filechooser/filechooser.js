@@ -300,7 +300,7 @@ Control.FileChooser.Panel = Class.create({
 		var cell = row.insertCell(0);
 		cell.vAlign = 'top';
 		this.fileList = new Element('div', { 'class': '_pp_panel _pp_inset',
-			'style': 'height:'+listHeight+'px;width'+listWidth+'px;overflow:auto;margin-right:3px;margin-bottom:5px;'});
+			'style': 'height:'+listHeight+'px;width:'+listWidth+'px;overflow:auto;margin-right:3px;margin-bottom:5px;'});
 		this.fileList.on('mousedown', function() { return false; });
 		this.fileList.on('selectstart', function() { return false; });
 		cell.appendChild(this.fileList);
